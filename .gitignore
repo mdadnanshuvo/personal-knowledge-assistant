@@ -1,0 +1,73 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- IDE & Editor ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Build & Distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Logs & Debug ----
+*.log
+logs/
+debug.log
+
+# ---- Bytecode & Caches ----
+*.cache
+.pytest_cache/
+__pycache__/
+
+# ---- Jupyter & Notebooks ----
+.ipynb_checkpoints
+*.ipynb
+
+# ---- OS Specific ----
+.DS_Store
+Thumbs.db
+
+# ---- FAISS & Vector Indexes ----
+vector_db/*.index
+vector_db/*_metadata.json
+
+# ---- Data Files ----
+docs/
+data/
+*.csv
+*.json
+*.pkl
+
+# ---- Temporary Files ----
+tmp/
+temp/
+*.bak
+*.swp
+
+# ---- Environment & Secrets ----
+.env
+*.env
+config.json
+secrets.json
+
+# ---- PyInstaller ----
+*.manifest
+*.spec
